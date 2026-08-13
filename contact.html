@@ -27,6 +27,15 @@
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="olrDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="assets/openlightroom/logo.png" alt="" class="olr-nav-icon">Open LightRoom<span class="nav-badge">Free</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="olrDropdown">
+                            <li><a class="dropdown-item" href="openlightroom.html"><i class="fas fa-layer-group"></i>About the App</a></li>
+                            <li><a class="dropdown-item" href="openlightroom-download.html"><i class="fas fa-download"></i>Download</a></li>
+                        </ul>
+                    </li>
                     <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
                 </ul>
             </div>
@@ -52,7 +61,7 @@
                 <!-- Contact Information -->
                 <div class="col-lg-5">
                     <!-- Contact Info Card -->
-                    <div class="contact-info-card">
+                    <div class="contact-info-card reveal">
                         <h2 class="mb-4">Contact Information</h2>
                         <div class="contact-info-item">
                             <i class="fas fa-envelope"></i>
@@ -78,7 +87,7 @@
                     </div>
 
                     <!-- Leadership Card -->
-                    <div class="leadership-card">
+                    <div class="leadership-card reveal">
                         <h3 class="mb-3">Leadership</h3>
                         <p class="leadership-name">Dhrubo Roy Partho</p>
                         <p class="leadership-title">CEO & CTO</p>
@@ -87,7 +96,7 @@
 
                 <!-- Contact Form -->
                 <div class="col-lg-7">
-                    <div class="contact-form">
+                    <div class="contact-form reveal">
                         <h2 class="mb-4">Send us a Message</h2>
                         <form id="contactForm" action="https://formspree.io/f/mzzjvqjd" method="POST">
                             <div class="form-group">
@@ -110,6 +119,9 @@
                             <div class="success-message" id="successMessage">
                                 <i class="fas fa-check-circle me-2"></i>Message sent successfully!
                             </div>
+                            <div class="error-message" id="errorMessage">
+                                <i class="fas fa-triangle-exclamation me-2"></i>Something went wrong — please try again or email us directly.
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -131,6 +143,7 @@
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="services.html">Services</a></li>
+                        <li><a href="openlightroom.html">Open LightRoom</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
@@ -141,7 +154,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Pixelated IT. All rights reserved.</p>
+                <p>&copy; <span class="footer-year">2025</span> Pixelated IT. All rights reserved.</p>
             </div>
         </div>
     </footer>

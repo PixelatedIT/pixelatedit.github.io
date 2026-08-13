@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Open LightRoom — a free, open-source, non-destructive RAW photo editor for Windows, built by PixelatedIT. Real RAW decoding, full color grading, and proper masking.">
+    <meta name="keywords" content="open lightroom, raw photo editor, open source photo editor, non-destructive editing, free lightroom alternative">
+    <meta name="author" content="Pixelated IT">
+    <meta name="theme-color" content="#1b1b1b">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Open LightRoom — Free, Open-Source RAW Photo Editor">
+    <meta property="og:description" content="A free, open-source, non-destructive RAW photo editor for Windows. Real RAW decoding, a full color-grading toolkit, and proper masking.">
+    <meta property="og:image" content="https://pixelatedit.github.io/assets/openlightroom/loading_banner.png">
+    <meta property="og:url" content="https://pixelatedit.github.io/openlightroom.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Open LightRoom — Free, Open-Source RAW Photo Editor | Pixelated IT</title>
+    <link rel="icon" href="assets/openlightroom/logo.ico">
+    <link rel="icon" type="image/png" href="assets/openlightroom/logo.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="olr-page">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top olr-nav" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span class="brand-text">Pixelated IT</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="olrDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="assets/openlightroom/logo.png" alt="" class="olr-nav-icon">Open LightRoom<span class="nav-badge">Free</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="olrDropdown">
+                            <li><a class="dropdown-item" href="openlightroom.html"><i class="fas fa-layer-group"></i>About the App</a></li>
+                            <li><a class="dropdown-item" href="openlightroom-download.html"><i class="fas fa-download"></i>Download</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="olr-hero text-center">
+        <div class="container">
+            <span class="olr-eyebrow"><i class="fas fa-code-branch"></i>Free &amp; Open Source · Windows</span>
+            <h1>Non-destructive RAW editing.<br>Free. Open. Yours.</h1>
+            <p class="olr-subtitle">
+                Open LightRoom is a free, open-source, non-destructive photo color-grading
+                application for Windows — built for photographers who want professional-grade
+                RAW editing without a subscription, a license key, or a black box.
+            </p>
+            <div class="olr-hero-actions">
+                <a href="openlightroom-download.html" class="btn-olr-primary">
+                    <i class="fas fa-download me-2"></i>Download for Windows — Free
+                </a>
+                <a href="https://github.com/DhruboRoyPartho/OpenLightRoom" class="btn-olr-secondary" target="_blank" rel="noopener">
+                    <i class="fab fa-github me-2"></i>View source on GitHub
+                </a>
+            </div>
+
+            <div class="olr-hero-banner reveal">
+                <img src="assets/openlightroom/loading_banner.png" alt="Open LightRoom — Open source. Open to create.">
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Open LightRoom -->
+    <section class="olr-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-9 text-center reveal">
+                    <span class="olr-badge-pill">Why Open LightRoom</span>
+                    <p class="olr-section-text">
+                        Professional RAW editing has been dominated for years by paid, closed-source
+                        software — subscriptions, license servers, and tools you can use but never
+                        truly own. Open LightRoom is PixelatedIT's answer to that: a real, working
+                        alternative built from the ground up, with a non-destructive layer engine,
+                        genuine RAW decoding, and a physically-accurate color pipeline — released
+                        free and open source, so anyone can use it, inspect it, and help build it
+                        further.
+                    </p>
+                    <p class="olr-section-text">
+                        <strong>It's not a toy or a tech demo.</strong> Every tool below is a real,
+                        tested, working feature — not a mockup.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature cards -->
+    <section class="olr-section pt-0">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="olr-feature-card reveal">
+                        <div class="olr-feature-icon"><i class="fas fa-film"></i></div>
+                        <h3>Real RAW editing, not just previews</h3>
+                        <p>
+                            Import RAW files straight from your camera — Canon (CR2/CR3), Nikon (NEF),
+                            Sony (ARW), Adobe DNG, Fujifilm (RAF), Olympus (ORF), Panasonic (RW2) —
+                            decoded with LibRaw, the same open-source RAW engine trusted across the
+                            photo industry. JPEG, PNG, TIFF, BMP, and WEBP are supported too, with
+                            embedded ICC color-profile handling so colors stay accurate on import.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="olr-feature-card reveal">
+                        <div class="olr-feature-icon"><i class="fas fa-clone"></i></div>
+                        <h3>Non-destructive, always</h3>
+                        <p>
+                            Nothing you do is ever baked into your photo until you explicitly export
+                            it. Every adjustment lives as its own layer on top of an untouched
+                            original — reorder, disable, or delete any of them at any time. Full
+                            undo/redo history, saved and reopened exactly as you left it via project
+                            files.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="olr-feature-card reveal">
+                        <div class="olr-feature-icon"><i class="fas fa-palette"></i></div>
+                        <h3>A complete color-grading toolkit</h3>
+                        <ul>
+                            <li>Exposure, Contrast, Highlights, Shadows, Whites, Blacks, Brightness</li>
+                            <li>White Balance — Temperature &amp; Tint, plus a click-to-sample eyedropper</li>
+                            <li>Vibrance, Saturation, Hue</li>
+                            <li>8-channel HSL grading, per color</li>
+                            <li>Color Wheels — Shadows, Midtones, Highlights, Global</li>
+                            <li>Point curve and parametric curve tone control</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="olr-feature-card reveal">
+                        <div class="olr-feature-icon"><i class="fas fa-paintbrush"></i></div>
+                        <h3>Local adjustments &amp; masking, done properly</h3>
+                        <ul>
+                            <li>Brush, Radial, Linear Gradient, Rectangle, Ellipse, Polygon masks</li>
+                            <li>Color Range and Luminance Range masks</li>
+                            <li>Skin-tone detection for portrait work</li>
+                            <li>Add / Subtract / Intersect, invert, feather, blur, density controls</li>
+                            <li>Live on-canvas overlay while you shape a mask</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="olr-feature-card reveal">
+                        <div class="olr-feature-icon"><i class="fas fa-crop-simple"></i></div>
+                        <h3>Composition tools</h3>
+                        <p>
+                            Crop, straighten (just drag along a horizon line), rotate, and flip —
+                            all non-destructive, all reversible.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="olr-feature-card reveal">
+                        <div class="olr-feature-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3>Presets &amp; scopes</h3>
+                        <p>
+                            Save any grade as a reusable preset and apply it to future photos in one
+                            click. Read your image objectively with a live histogram, waveform,
+                            vectorscope, and RGB parade — the same reference tools colorists rely on.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="olr-feature-card reveal">
+                        <div class="olr-feature-icon"><i class="fas fa-bolt"></i></div>
+                        <h3>Built for real photo sizes</h3>
+                        <p class="mb-0">
+                            A dedicated preview-quality setting lets big RAW files stay responsive
+                            while you edit — with zero compromise on the final export, which always
+                            renders at full resolution regardless of your preview setting.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Free & Open Source -->
+    <section class="olr-section pt-0">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-9">
+                    <div class="olr-callout reveal">
+                        <span class="olr-badge-pill">Free &amp; Open Source</span>
+                        <h2>Open LightRoom is, and will stay, free.</h2>
+                        <p>
+                            The full source code is public on GitHub. You can read exactly how every
+                            tool works, verify there's nothing hidden, and — if you want —
+                            contribute to it directly. No subscription. No account required to use
+                            it. No telemetry phoning home behind your back.
+                        </p>
+                        <p class="mt-3 mb-0">
+                            <a href="https://github.com/DhruboRoyPartho/OpenLightRoom" class="btn-olr-secondary" target="_blank" rel="noopener">
+                                Explore the code on GitHub <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap -->
+    <section class="olr-section pt-0 pb-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-9">
+                    <div class="olr-roadmap-card reveal">
+                        <span class="olr-badge-pill">What's next</span>
+                        <p>
+                            Open LightRoom is under active development. On the roadmap: macOS and
+                            Linux builds, and pluggable AI-assisted masking — the Subject and Sky
+                            mask tools already exist in the interface today and are ready for a
+                            model to be dropped in. It's a young project, and that's worth being
+                            upfront about, not something to hide.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About-page footer content -->
+    <section class="pb-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-9 text-center">
+                    <p class="olr-section-text mb-1">Brought to you by <strong>PixelatedIT</strong>.</p>
+                    <p class="olr-section-text">
+                        Built by <strong>Dhrubo Roy Partho</strong> —
+                        <a href="https://github.com/DhruboRoyPartho" target="_blank" rel="noopener" style="color:#8fb3ff;">GitHub</a>
+                    </p>
+                    <div class="olr-footer-links justify-content-center">
+                        <a href="https://github.com/DhruboRoyPartho/OpenLightRoom/issues" target="_blank" rel="noopener">Report a bug</a>
+                        <a href="https://github.com/DhruboRoyPartho/OpenLightRoom/issues" target="_blank" rel="noopener">Request a feature</a>
+                        <a href="https://github.com/DhruboRoyPartho/OpenLightRoom" target="_blank" rel="noopener">Source code</a>
+                        <a href="openlightroom-download.html">Download</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h3 class="footer-brand">Pixelated IT</h3>
+                    <p class="footer-text">From Pixel to Perfection</p>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="footer-heading">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="openlightroom.html">Open LightRoom</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="footer-heading">Contact</h5>
+                    <p class="footer-text">dhruboroypartho@gmail.com</p>
+                    <p class="footer-text">01307039759</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span class="footer-year">2025</span> Pixelated IT. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
